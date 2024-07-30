@@ -226,7 +226,7 @@ if (!isset($_SESSION['user']) || $_SESSION['user']['id_role'] != 0) {
                             case 'delete_account':
                                 deleteAccount($_GET['acc_id']);
                                 echo "<script>window.location.href = '?action=accounts';</script>";
-                                break;
+                                
                                 case 'categories':
                                     $list_categories = load_all_category();
                                     include 'tables/categories/categories.php';
