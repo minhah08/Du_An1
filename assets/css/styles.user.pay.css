@@ -1,0 +1,211 @@
+/* BEGIN MAIN  */
+/* BEGIN CATEGORY  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+main {
+  width: 1180px;
+  margin: 0 auto;
+  /* text-align: center; */
+}
+
+main .list-category {
+  width: 906px;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+main .category-item {
+  width: 92px;
+  height: 92px;
+}
+
+main .category-item img {
+  width: 66px;
+  height: 67px;
+  object-fit: cover;
+  border-radius: 54px;
+}
+
+main .category-item a {
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+main .category-item a:hover {
+  text-decoration: underline;
+}
+
+/* END CATEGORY */
+/* BEGIN PRODUCT */
+main {
+  min-height: 500px;
+  margin-bottom: 40px;
+  /* background-color: aqua; */
+}
+
+main .title-pay {
+  margin-bottom: 20px;
+}
+
+main .section-pay {
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  margin-bottom: 50px;
+}
+
+main .section-pay h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.section-pay .box-left {
+  min-width: 55%;
+  border: 1px solid #acacac;
+}
+
+.section-pay .letf-bottom {
+  padding: 0 20px 20px 20px;
+  margin: 0 10px;
+}
+
+.section-pay .box-left input[type="text"],
+.section-pay .box-left input[type="email"], 
+.section-pay .box-left textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  /* padding: 5px 10px; */
+}
+
+.section-pay .box-left textarea {
+  height: 120px;
+  margin-bottom: 40px;
+}
+
+.section-pay .box-right {
+  min-width: 40%;
+  margin: 0 20px;
+}
+
+.section-pay .box-right > h3 {
+  background: #6e3d2e;
+  color: white;
+}
+
+.section-pay table {
+  width: 100%;
+  height: 180px; 
+  border-collapse: collapse;
+}
+
+.section-pay .right-top {
+  border: 1px solid #acacac;
+}
+
+.section-pay .right-top th {
+  padding: 10px; 
+  background-color: #eee5da;
+}
+
+.section-pay .right-top td {
+  padding: 10px; 
+}
+
+.section-pay .color-price {
+  color: #ba9800;
+}
+
+.section-pay .right-top {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #acacac;
+}
+
+.section-pay .right-bottom {
+  padding: 20px;
+  border-right: 1px solid #acacac;
+  border-bottom: 1px solid #acacac;
+  border-left: 1px solid #acacac;
+}
+
+.section-pay .order-detail { 
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-pay .right-bottom .total-price p {
+  font-size: 16px;  
+} 
+
+.section-pay .discount {
+  width: 100%;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-pay .discount input[type="text"] {
+  width: 70%;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  border-radius: 17px;
+}
+
+.section-pay .discount input[type="submit"] {
+  width: 20%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 17px;
+  font-weight: 600;
+  background-color: #ffc501;
+}
+
+.section-pay .discount input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+main .confirm-oder {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly; 
+}
+
+main .confirm-oder input[type="submit"] {
+  padding: 10px 60px;
+  font-weight: 600;
+  border-radius: 6px;
+  border: 0;
+}
+
+main .letf-confirm {
+  background-color: #999999;
+  padding: 0 20px;
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+main .letf-confirm:hover {
+  opacity: 0.8;
+}
+
+main .right-confirm {
+  background-color: #ffbf43;
+}
+
+main .right-confirm:hover {
+  opacity: 0.8;
+}
+
+/* END MAIN */

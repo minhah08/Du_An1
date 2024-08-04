@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
+}   
+
+h4 {
+  font-size: 20px;
+  padding-top: 60px;
+}
+.viewcart,
+.content,
+.q-inner {
+  display: flex;
+}
+
+.viewcart {
+  margin-bottom: 50px;
+  justify-content: space-between;
+}
+
+.main .viewcart {
+  margin-bottom: 50px;
+}
+.product-category-detail {
+  box-shadow: 0 0 5px 5px rgba(242, 238, 235, 0.77);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  height: 210px;
+  justify-content: space-between;
+}
+.field-note {
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px 5px rgba(242, 238, 235, 0.77);
+  margin-left: 20px;
+}
+.product-category-detail .field-img {
+  width: 210px;
+  margin-bottom: 50px;
+  margin-right: 0;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-category-detail .image { 
+  width: 150px;
+}
+.cart {
+  margin-top: 50px;
+  margin-bottom: 50px;
+} 
+
+.product-category-detail h3 {
+  font-size: 28px;
+  font-weight: bold;
+}
+.product-category-detail .field-price {
+  color: #ff5b6a;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+.product-category-detail .qty {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin: 0 25px;
+}
+.qty button {
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+
+  float: left;
+  font-weight: 500;
+  font-size: 18px;
+}
+.qty .btn-minute,
+.qty .btn-plus {
+  font-weight: bold;
+  color: black;
+}
+.number {
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+  font-weight: bold;
+}
+.icon {
+  padding-left: 18px;
+  padding-top: 2px;
+  width: 25px;
+}
+
+.price {
+  font-size: 18px;
+  padding-top: 15px;
+  color: #ffc501;
+  font-weight: bold;
+}
+.name {
+  padding-top: 10px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+.vorcher {
+  width: 200px;
+  border: 1px solid darkgrey;
+  padding-left: 5px;
+  padding-top: 7px;
+  border-radius: 20px;
+  padding-bottom: 7px;
+  color: darkgrey;
+}
+.sbvocher {
+  border-radius: 18px;
+  border: 1px solid #ffc501;
+  background-color: #ffc501;
+  color: #fff;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+} 
+.pr-name,
+.pr-price {
+  padding-top: 5px;
+  display: flex;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.icon-delete:hover {
+  color: #70472b;
+}
+
+.bb {
+  width: 100%;
+}
+.tt {
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: #ffc501;
+  border: 1px solid #ffc501;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 25px;
+}
+.sbvocher:hover {
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-top: 7px;
+  padding-right: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  border-radius: 18px;
+  background-color: #70472b;
+}
+.tt:hover {
+  width: 300px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  border-radius: 25px;
+  background-color: #70472b;
+}
+.icon-delete a {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  font-size: 25px;
+  color: #ffc501;
+}
+.icon-delete a:hover {
+  font-size: 25px;
+  color: #70472b;
+} 
