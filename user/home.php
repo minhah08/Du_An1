@@ -61,7 +61,7 @@
                 </div>
                 <div class="item-info d-flex">
                     <i class="fa-solid fa-phone me-2 mt-1"></i>
-                    <p>Điện thoại: +84 123456789</p>
+                    <p>Điện thoại: +84 913938828</p>
                 </div>
                 <div class="item-info d-flex">
                     <i class="fa-solid fa-envelope me-2 mt-1"></i>
