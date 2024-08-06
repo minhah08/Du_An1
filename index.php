@@ -44,7 +44,7 @@ session_start();
             include './model/discount_code.php';
             $list_category_home = load_all_category_home();
 
-            if ($_GET['act']) {
+            if (isset($_GET['act'])) {
                 switch ($_GET['act']) {
                     case 'home':
                         include './user/home.php';
