@@ -32,7 +32,7 @@
 </style>
 <header>
     <div class="wrap-img">
-        <a href="index.php?act=home"><img src="assets/img/logo/logo.png" alt="" width="80px"></a>
+        <a href="index.php?act=home"><img src="assets\img\logo\logo.png" alt="" width="80px"></a>
     </div>
     <ul class="menu-nav m-0">
         <li><a href="index.php?act=home">Trang chủ</a></li>

@@ -3,7 +3,7 @@
 function pdo_connect()
 {
     $host = 'localhost';
-    $dbname = 'duan1';
+    $dbname = 'seven_fried_chicken';
     $username = 'root';
     $password = '';
 

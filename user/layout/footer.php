@@ -2,9 +2,9 @@
 
 <footer class="d-flex justify-content-around">
     <div class="box-one pt-4">
-        <h3 style="color: #fff; font-family: 'Lexend Deca',sans-serif; text-transform: uppercase;">Fast Food</h3>
+        <h3 style="color: #fff; font-family: 'Lexend Deca',sans-serif; text-transform: uppercase;">Seven Fied Chicken</h3>
         <p style="color: #FFC501;font-family: 'Lexend Deca', sans-serif">Thưởng thức vị ngon không giới hạn.</p>
-        <p style="color: #fff; font-size: 10px;font-family: 'Lexend Deca', sans-serif;">© 2023 Copyright: Nhóm 1 - Dự án 1 </p>
+        <p style="color: #fff; font-size: 10px;font-family: 'Lexend Deca', sans-serif;">© 2024 Copyright: Nhóm 7 - Dự án 1 </p>
     </div>
     <div class="box-two pt-4">
         <h3 style="color: #fff; font-family: 'Lexend Deca',sans-serif">Kết nối với chúng tôi</h3>

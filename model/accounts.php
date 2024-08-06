@@ -148,16 +148,16 @@ function forgotPassword($user, $email, $password)
 
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
-        $mail->Subject = '=?UTF-8?B?' . base64_encode('[FastFood] Khôi phục mật khẩu') . '?=';
+        $mail->Subject = '=?UTF-8?B?' . base64_encode('[Seven Fied Chicken] Khôi phục mật khẩu') . '?=';
         $mail->Body = '   
-      <h1>Fass Food</h1>
+      <h1>Seven Fied Chicken</h1>
       <h2>Khôi phục mật khẩu</h2>
       <hr>
       <p>Xin chào ' . $user . '</p>
       <p>Mật khẩu khôi phục của bạn là: <strong>' . $password . '</strong></p>
       <p>
         Vui lòng <a href="#">bấm vào đây</a> để đăng nhập vào tài khoản
-        FastFood của bạn bằng mật khẩu này
+        Seven Fied Chicken của bạn bằng mật khẩu này
       </p>
       <p>Trân trọng</p>  
         ';
